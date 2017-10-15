@@ -1,0 +1,16 @@
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Usuario</th>
+            <th>Mensaje</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="usuario in listado">
+            <td>{{usuario.usuario}}</td>
+            <td>{{usuario.mensaje}}</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<a ui-sref="index" class="btn btn-block btn-primary">Volver</a>
